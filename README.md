@@ -28,3 +28,12 @@
     FULL OUTER JOIN – return matching rows from both left and right tables and rows from each side if no matching rows exist.
     CROSS JOIN – join multiple unrelated tables and create Cartesian products of rows in the joined tables.
     Self join – show you how to use the self-join to query hierarchical data and compare rows within the same table.
+
+## Grouping data
+    GROUP BY– group the query result based on the values in a specified list of column expressions.
+    HAVING – specify a search condition for a group or an aggregate.
+    GROUPING SETS – generates multiple grouping sets.
+    CUBE – generate grouping sets with all combinations of the dimension columns.
+    ROLLUP – generate grouping sets with an assumption of the hierarchy between input columns.
+
+## Subquery 
