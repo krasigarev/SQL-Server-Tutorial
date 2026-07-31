@@ -18,6 +18,7 @@
     IN – check whether a value matches any value in a list or a subquery.
     BETWEEN – test if a value is between a range of values.
     LIKE  –  check if a character string matches a specified pattern.
+    Column & table aliases – show you how to use column aliases to change the heading of the query output and table aliases to improve the readability of a query.
 
 ## Joining tables 
 
