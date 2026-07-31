@@ -21,4 +21,10 @@
     Column & table aliases – show you how to use column aliases to change the heading of the query output and table aliases to improve the readability of a query.
 
 ## Joining tables 
-
+    Joins – give you a brief overview of joins types in SQL Server including inner join, left join, right join, and full outer join.
+    INNER JOIN – select rows from a table that have matching rows in another table.
+    LEFT JOIN – return all rows from the left table and matching rows from the right table. If the right table does not have corresponding rows, use NULL for the column values from the right table.
+    RIGHT JOIN – learn a reversed version of the left join.
+    FULL OUTER JOIN – return matching rows from both left and right tables and rows from each side if no matching rows exist.
+    CROSS JOIN – join multiple unrelated tables and create Cartesian products of rows in the joined tables.
+    Self join – show you how to use the self-join to query hierarchical data and compare rows within the same table.
