@@ -38,3 +38,9 @@
 
 ## Subquery 
     Subquery – show you how to use various subquery types to select data.
+    Correlated subquery – introduce you to the correlated subquery concept.
+    EXISTS – test for the existence of rows returned by a subquery.
+    ANY – compare a value with a single-column set of values returned by a subquery and return TRUE if the value matches any value in the set.
+    ALL – compare a value with a single-column set of values returned by a subquery and return TRUE if the value matches all values in the set.
+    CROSS APPLY – perform an inner join of a table with a table-valued function or a correlated subquery.
+    OUTER APPLY – perform a left join of a table with a table-valued function or a correlated subquery.
