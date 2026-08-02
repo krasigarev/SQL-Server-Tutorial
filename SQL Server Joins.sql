@@ -62,3 +62,11 @@ FROM hr.candidates AS c
 FULL JOIN hr.employees as e  ON e.fullname = c.fullname
 WHERE c.ID IS NULL OR E.id IS NULL;
 GO
+
+-- Jons
+SELECT 
+payment 
+FROM salary, ranks, jobs
+WHERE salary.rank = ranks.rank
+AND ranks.title = jobs.title
+AND jobs.employee = 'Bob Doe' 
