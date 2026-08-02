@@ -37,3 +37,4 @@
     ROLLUP – generate grouping sets with an assumption of the hierarchy between input columns.
 
 ## Subquery 
+    Subquery – show you how to use various subquery types to select data.
