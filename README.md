@@ -44,3 +44,8 @@
     ALL – compare a value with a single-column set of values returned by a subquery and return TRUE if the value matches all values in the set.
     CROSS APPLY – perform an inner join of a table with a table-valued function or a correlated subquery.
     OUTER APPLY – perform a left join of a table with a table-valued function or a correlated subquery.
+
+## Set Operators
+    UNION – combine the result sets of two or more queries into a single result set.
+    INTERSECT – return the intersection of the result sets of two or more queries.
+    EXCEPT – find the difference between the two result sets of two input queries
