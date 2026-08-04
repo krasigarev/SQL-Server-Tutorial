@@ -49,3 +49,7 @@
     UNION – combine the result sets of two or more queries into a single result set.
     INTERSECT – return the intersection of the result sets of two or more queries.
     EXCEPT – find the difference between the two result sets of two input queries
+
+## Common Table Expression (CTE)
+    CTE – use common table expressions to make complex queries more readable.
+    Recursive CTE – query hierarchical data using recursive CTE.
